@@ -1,0 +1,81 @@
+<!doctype html>
+<!--
+  A privacy statement for one uhifadhi field app, served by GitHub Pages from
+  main at privacy.uhifadhi.org. Dependency-free: hand-written HTML and the
+  stylesheet the downloads page uses. The text is the one the design workspace
+  holds (uhifadhi-web, handset/privacy.html) with "your organisation" where an
+  installation prints its own name; the two are built from the same source.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uhifadhi Doria privacy statement — uhifadhi</title>
+<meta name="description" content="What the uhifadhi field apps record, where it goes, and what they do not do.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-in">
+    <img class="mark" src="../assets/favicon.svg" alt="" width="40" height="40">
+    <div>
+      <p class="wordmark">uhifadhi</p>
+      <p class="tagline">Privacy</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+<p class="dated"><span class="pill">Uhifadhi Doria 0.5.5</span><span class="pill soft">2 November 2026</span></p>
+<h1>A day with Uhifadhi Doria, and what leaves your phone</h1>
+<p class="lede">The statement in the order your day happens. Each step says what the app records at that moment and where it goes. Everything lands on your organisation&rsquo;s own installation of uhifadhi; Utafiti Labs makes the app and never receives the records.</p>
+<ol class="day">
+<li class="step"><span class="when">06:40</span><b>You sign in</b><p>Your identifier and a token for this phone go to the installation. The roster tells the app your name, rank and posting; the app adds nothing to them.</p></li>
+<li class="step"><span class="when">06:52</span><b>You check in</b><p>Your status and the phone's position at that moment are sent. From now until you check out, a position ping goes every few minutes, at the interval your area set, with the system's location indicator on the whole time.</p></li>
+<li class="step"><span class="when">08:10</span><b>You start a patrol</b><p>Position fixes are recorded to the phone as you walk. Nothing leaves the phone until it has signal and you sync.</p></li>
+<li class="step"><span class="when">09:35</span><b>You photograph a snare</b><p>The camera opens only when you press the shutter. The picture is stamped with the place and time and attached to the observation, on the phone.</p></li>
+<li class="step"><span class="when">13:20</span><b>You sync at the post</b><p>Patrols, tracks, observations and photographs go to your organisation's installation over HTTPS. The phone keeps every record until the installation confirms it arrived.</p></li>
+<li class="step"><span class="when">17:05</span><b>You check out</b><p>Your check-out and handover note are sent, and the pings stop. Signing out was refused until now, so the day is never left half-reported.</p></li>
+<li class="step"><span class="when">Any time</span><b>The app crashes</b><p>A report goes to the installation's monitoring: the phone's model and system, the screen and the action, your identifier, and the error. Passwords, tokens and photo bytes are stripped before it leaves.</p></li>
+</ol>
+<h2 id="who">Who this is about</h2>
+<p class="lead">The people who carry Uhifadhi Doria on patrol and on duty, and the organisation whose records they keep.</p>
+<p><b>Your organisation</b> runs its own installation of uhifadhi and is responsible for every record the app sends to it. The app is made by <b>Utafiti Labs</b>, which writes the software and never receives the records: nothing the phone collects goes anywhere but your organisation's installation.</p>
+<p>You use the app because your organisation gave you an account. Questions about your records, and requests to see or correct them, go to the administrator of your organisation, not to the maker.</p>
+<h2 id="stays">What stays on the phone</h2>
+<p class="lead">The phone is the original until the installation has acknowledged a record.</p>
+<p>On the trail there is no network, so the phone keeps every record until the installation confirms it arrived. Nothing is deleted from the phone before then.</p>
+<p>Signing out is refused while you are checked in, so a day on duty is never left half-reported. <b>Uninstalling the app deletes any record that has not yet been sent.</b> Sync first.</p>
+<h2 id="not">What the app does not do</h2>
+<p class="lead">Said plainly, because a reader should not have to infer it.</p>
+<dl>
+<dt>No advertising, no analytics</dt><dd>There is no advertising, no analytics service and no measurement of how you use the app. The only report the app makes about itself is a crash report.</dd>
+<dt>No third parties</dt><dd>Nothing is sold, shared or passed to anyone outside your organisation's installation, apart from the map tiles described above.</dd>
+<dt>No tracking across apps</dt><dd>The app reads nothing from other apps and leaves nothing for them to read.</dd>
+<dt>No location off duty</dt><dd>Background location is used only while a patrol is being recorded or while you are checked in, and the system shows its indicator the whole time.</dd>
+</dl>
+<h2 id="asks">What the phone will ask you</h2>
+<p class="lead">Each permission is asked once, at the moment it is first needed, with the reason on the screen.</p>
+<dl>
+<dt>Location</dt><dd>To record where your patrol went and to stamp an observation with the spot you saw it. While using the app, with background use during a patrol or a duty watch.</dd>
+<dt>Camera</dt><dd>To photograph what you find. Only when you press the shutter.</dd>
+<dt>Photos</dt><dd>Only on a device with no camera, to pick one existing picture. The library is read, never written.</dd>
+<dt>Notifications</dt><dd>To remind you of a check-in or a check-out you have not made.</dd>
+</dl>
+<h2 id="kept">How long it is kept</h2>
+<p class="lead">For as long as your organisation's own rules for its records say.</p>
+<p>The records belong to your organisation and are kept under its records policy, the same as a patrol written on paper. To see what is held about you, to correct it, or to ask for it to be removed, speak to your organisation's administrator, who can act on the installation directly.</p>
+<h2 id="changes">Changes to this statement</h2>
+<p class="lead">This statement is dated 2 November 2026 and describes Uhifadhi Doria 0.5.5.</p>
+<p>When the app starts collecting something new, or stops, the statement changes with that release and the date at the top changes with it. An installation always shows the statement for the version it accepts.</p>
+<p class="back"><a href="../">All statements</a></p>
+</main>
+
+<footer class="wrap foot">
+  <p>uhifadhi is made by Utafiti Labs. The records a field app sends belong to the organisation whose installation receives them.</p>
+  <p><a href="https://downloads.uhifadhi.org/">Downloads</a> &#183; <a href="https://github.com/utafitilabs/privacy">This repository</a></p>
+</footer>
+</body>
+</html>
